@@ -421,6 +421,18 @@ MAX_EMAIL_LENGTH=10000
 - **Interactive Docs**: Built-in API documentation
 - **Requirements**: Full Python environment setup
 
+### 📚 Documentation & Resources
+- **[📖 Notebook README](NOTEBOOK_README.md)**: Detailed Jupyter notebook guide
+- **[🎯 Interview Guide](INTERVIEW_GUIDE.md)**: Discussion points and Q&A preparation
+- **[📊 Executive Summary](EXECUTIVE_SUMMARY.md)**: Concise project overview
+- **[🚀 Deployment Guide](DEPLOYMENT_GUIDE.md)**: Production deployment instructions
+- **[⚙️ Configuration Template](.env.template)**: Environment configuration options
+
+### 🛠️ Tools & Scripts
+- **[🎪 Demo Script](demo_email_processor.py)**: Interactive demonstration
+- **[📊 Benchmark Tool](benchmark_email_processor.py)**: Performance testing
+- **[⚡ Quick Reference](QUICK_REFERENCE.md)**: Essential commands and tips
+
 ## License
 
 This project is for assessment purposes.
