@@ -1,0 +1,5 @@
+email_id,subject,body,category
+E001,Where is my order #12345?,"Hi, I placed order #12345 last week and haven't received it yet. Can you please check the status?",order
+E002,Product question about laptop,Do you have the XYZ laptop model available in 16GB RAM configuration? What's the price?,inquiry
+E003,Return request,I received the wrong item in my order. I ordered a blue shirt but got a red one. Please help with return.,order
+E004,Thank you!,Just wanted to say thanks for the excellent customer service. Keep up the good work!,other

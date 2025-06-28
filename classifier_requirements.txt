@@ -1,0 +1,14 @@
+# Additional requirements for the enhanced email classifier
+# Add these to your main requirements.txt if needed
+
+# Google Sheets integration
+gspread>=5.7.0
+gspread-dataframe>=3.3.0
+google-auth>=2.16.0
+google-auth-oauthlib>=0.8.0
+
+# Data processing (if not already included)
+pandas>=1.5.0
+
+# OpenAI (if not already included)
+openai>=1.13.0

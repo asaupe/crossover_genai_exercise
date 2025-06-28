@@ -1,8 +1,47 @@
 # 🚀 Quick Reference Guide - GenAI Email Processor
 
+## 📋 Choose Your Implementation
+
+### 📓 Jupyter Notebook (Interactive Analysis)
+```bash
+# Best for: Learning, experimentation, one-time processing
+
+# Google Colab (Recommended)
+1. Upload fashion_store_email_processor.ipynb to colab.research.google.com
+2. Set OPENAI_API_KEY in Colab Secrets (🔑 icon)
+3. Runtime → Run all
+
+# Local Jupyter
+jupyter notebook fashion_store_email_processor.ipynb
+```
+
+### 🚀 FastAPI Production (Scalable API)
+```bash
+# Best for: Production deployment, real-time processing
+
+# Start server
+python -m src.main
+# Access: http://localhost:8000
+# Docs: http://localhost:8000/docs
+```
+
 ## Essential Commands
 
-### Starting the Application
+### 📓 Jupyter Notebook Quick Start
+```bash
+# Install notebook dependencies (if running locally)
+pip install pandas numpy openai langchain langchain-openai chromadb
+
+# Set OpenAI API key
+export OPENAI_API_KEY="your-key-here"
+
+# Launch Jupyter
+jupyter notebook
+
+# Expected output: Excel file with processed results
+```
+
+### 🚀 FastAPI Server
 ```bash
 # Activate virtual environment (if not already active)
 source .venv/bin/activate
